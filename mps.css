@@ -1,0 +1,272 @@
+html, body{
+    margin : 0;
+    padding : 0;
+
+    font-family: "Roboto", sans-serif;
+}
+
+*{ 
+    box-sizing : border-box;
+}
+
+/* MENU-CABEÇALHO */
+
+.flex-container{
+    background-color: rgba(124, 196, 42, 0.76);
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} ;;
+
+.menu-nav{
+    display: flex;
+}
+
+.menu-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-nav a:hover{
+    background: rgb(120, 120, 236);
+} 
+
+/* CAPA */
+
+.capa{
+    background-image: url(capa.png);
+    min-height: 100vh ;
+    background-size: cover;
+
+    color: rgb(11, 34, 4) ;    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.capa h1{
+    font-size: 70px;
+    max-width: 500px;
+    text-shadow: 3px 3px rgb(252, 251, 251);
+    margin-bottom: 0;
+}
+
+.capa h2{
+    max-width: 500px;
+    font-size: 30px;
+    margin-top: 0;
+    border-top: 1px solid rgb(11, 34, 4);
+    text-shadow: 3px 3px rgb(255, 255, 255);
+    text-align: center;
+}
+
+.capa .botao{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.capa .botao:hover{
+    background-color: rgba(0, 0, 255, 0.514);
+    border: 0px;    
+}
+/* FIM-CAPA */
+
+/* PROJETO */
+
+.projeto {
+    display: flex;
+    width: 100%;
+    padding: 30px 0px 20px 0px;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(124, 196, 42, 0.637);
+
+    flex-wrap: wrap;
+}
+
+.sobre-projeto{
+    flex: 50%;
+    padding: 0px 50px;
+}
+
+.sobre-projeto h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.sobre-projeto p{
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.video {
+    flex: ; 
+    padding: 0px 50px;
+}
+
+.video iframe{
+    width: 100%;
+}
+
+/*PREVENCAO*/
+
+.t-prevencao{
+    text-align: center;
+}
+
+.prevencao{
+    display: flex;
+    max-width: 100%;
+    padding: 30px 0px 20px 0px;
+    flex-wrap: wrap;  
+}
+
+.card{
+    flex: 25%;
+    text-align: center;
+    padding: 0px 50px;    
+}
+
+.img-prevencao img{
+    height: 85px;
+    width: 85px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+/*FIMPREVENCAO*/
+
+/*DESASTRES*/
+
+.desastres{
+    max-width: 100%;
+    background-color: rgba(124, 196, 42, 0.5);
+    padding:  30px 0px 20px;    
+
+}
+
+.desastres h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.desastres h2{
+    text-align:center;
+    font-size: 16px;    
+}
+
+.container-card{
+    max-width: 100%;
+    display: flex;
+}
+
+.card-desastres{
+    max-width: 400px ;
+    text-align: center ;
+    margin: 10px;
+    box-shadow: 4px 7px 5px rgb(0, 0, 0);
+    flex: 30%;
+}
+
+.card-desastres img{
+    max-width: 100%;
+    height: 350px;
+
+}
+
+
+/*FIMDESASTRES*/
+
+/* SOBREMIM */
+
+.sobre{
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+
+    background-color: rgba(124, 196, 42, 0.123);
+}
+
+.sobremim{
+    flex: 50%;
+    padding: 0px 40px;
+    line-height: 1.6;
+}
+
+.foto{
+    flex: 50%;
+    padding: 0px 40px;
+}
+
+.foto img{
+    max-width: 100%;
+    box-shadow: 4px 7px 4px black;
+
+}
+
+.sobremim h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.sobremim h4{
+    text-align: center;    
+}
+
+/*RODAPE*/
+
+footer{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 50px;
+    background-color: rgba(124, 196, 42, 0.76);
+    color: white;
+}
+
+.creditos{
+    flex: 1;
+    padding: 0px 40px;
+}
+
+.creditos h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.creditos p{
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+/*---------RESPONSIVIDADE----------*/
+
+
+
